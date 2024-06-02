@@ -1,0 +1,45 @@
+body {
+    background-image: url('img/fon.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:"Courier New Cyr", monospace;
+    
+  }
+  
+  
+@font-face {
+    font-family: Courier New Cyr; /* Гарнитура шрифта */
+    src: url(couriercyrps.ttf); /* Путь к файлу со шрифтом */
+}
+#head{
+      position: relative;
+      top:40px;
+   }
+.p{
+    font-size: 64px;
+}
+td{
+    border: none;
+}
+#structure{
+    position: relative;
+    top: 100px;
+}
+.counter {
+
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+    font-size: 38px;
+    text-align: justify;
+}
+td {
+    font-size: 38px;
+}
+.td{
+    border: dashed;
+    border-width: 3px;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 10px;
+}
